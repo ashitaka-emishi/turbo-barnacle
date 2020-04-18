@@ -1,0 +1,8 @@
+{
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "scss/at-extend-no-missing-placeholder": true
+  },
+  "extends": "stylelint-config-sass-guidelines",
+  "ignoreFiles": "node_modules/**/*"
+}

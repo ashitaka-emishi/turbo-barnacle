@@ -1,0 +1,15 @@
+# Project build and dev files
+/node_modules
+/dist
+/yarn-*.log
+
+# IDE Files
+/.vscode
+/.idea
+
+# Cypress test artifacts
+/cypress/videos
+/cypress/screenshots
+
+# Jest coverage reports
+/coverage

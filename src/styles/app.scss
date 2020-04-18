@@ -1,0 +1,22 @@
+// MIT License
+// https://github.com/ashitaka-emishi/turbo-barnacle/blob/master/LICENSE
+//
+// Copyright (c) 2020 Emishi Ashitaka
+
+@import "custom";
+
+.app {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  overflow: hidden;
+  width: 100vw;
+
+  button {
+    display: block;
+    height: 70px;
+    margin: 10px;
+    width: 500px;
+  }
+}
