@@ -13,7 +13,8 @@ test("App renders", () => {
   const className = "app-classname";
   const component = renderer.create(<App className={className} />);
   const tree = component.toJSON();
-  expect(tree.length).toBe(2);
-  expect(tree[0].props.className).toBe(className);
-  expect(tree[1].type).toBe("nav");
+
+  expect(tree.children.length).toBe(2);
+  expect(tree.props.className).toBe(className);
+  expect(tree.type).toBe("div");
 });

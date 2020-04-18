@@ -15,7 +15,7 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
-    "ignorePatterns": ["cypress/"],
+    "ignorePatterns": ["coverage/", "cypress/", "dist/", "node_modules", "reports/"],
     "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 6,

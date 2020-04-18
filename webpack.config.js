@@ -52,9 +52,7 @@ module.exports = {
           {
             loader: "postcss-loader",
             options: {
-              plugins: () => {
-                return [postCss, autoprefixer];
-              },
+              plugins: () => [postCss, autoprefixer],
             },
           },
           {
@@ -93,7 +91,7 @@ module.exports = {
       scripts: ["./main.js"],
       lang: "en-US",
       links: ["./main.css"],
-      meta: {viewport: "width=device-width, initial-scale=1, shrink-to-fit=no"},
+      meta: { viewport: "width=device-width, initial-scale=1, shrink-to-fit=no" },
       template: template,
       appMountId: "app-container",
     }),
