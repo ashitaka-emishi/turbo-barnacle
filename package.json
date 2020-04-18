@@ -59,6 +59,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "deploy": "rm -rf ./docs && webpack && mv ./dist ./docs",
     "dev": "webpack-dev-server",
     "lint": "eslint ./**/*.jsx ./**/*.js",
     "sasslint": "stylelint ./src/**/*.scss",
